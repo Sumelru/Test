@@ -1,0 +1,95 @@
+body{
+    background-color: darkgray;
+}
+h1{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+.main{
+    margin: auto;
+    width: 40%;
+}
+p{
+    font-size: 25px;
+    font-family: 'Nanum Myeongjo', serif;
+}
+.start{
+    color: red;
+    font-size: 25px;
+    font-family: 'Nanum Myeongjo', serif;
+    transition: 0.2s ease-in;
+}
+.start:hover{
+    transition: 0.2s ease-in;
+    color: blue;
+}
+.image{
+    display: block;
+    max-width: 100%;
+    max-height: auto;
+    background-color: burlywood;
+    padding: 5px;
+}
+.diplom{
+    display: block;
+    max-width: 100%;
+    max-height: 300px;
+    background-color: burlywood;
+    padding: 3px;
+}
+.t1{
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+    background-color: cyan;
+}
+.img{
+   filter: blur(2px);
+   opacity: 0.65;
+   transition: 0.3s ease;
+   margin: 30px;
+}
+.img:hover{
+    -webkit-transition: ease;
+    transition: 0.3s ease;
+    filter: blur(0);
+    opacity: 1;
+}
+.QW{
+    font-size: 30px;
+    font-family: 'Nanum Myeongjo', serif;
+    margin: 5px;
+    color:cyan;
+    background-color:seashell;
+    opacity: 0.65;
+    transition: 0.3s ease-in;
+    text-decoration: none;
+    display: block;
+}
+.QW:hover{
+    transition: 0.3s ease-in;
+    opacity: 1;
+    color: skyblue;
+}
+.sh{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    color: gray;
+    text-decoration-style: double;
+}
+.ss{
+    color: Cyan;
+    font-size: 30px;
+    font-family: 'Nanum Myeongjo', serif;
+    margin: 5px;
+    background-color:seashell;
+    opacity: 0.05;
+    transition: 0.3s ease-in;
+    text-decoration: none;
+    display: block;
+}
+.ss:hover{
+    transition: 1s ease-in;
+    opacity: 1;
+    color: skyblue;
+}
